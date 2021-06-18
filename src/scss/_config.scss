@@ -1,0 +1,30 @@
+// $bg-color: #ddd4ca;
+// $font-color: #161718;
+$font-color: #161b22;
+$main-color: #eec97e;
+$bg-color:#c1e0e5;
+// $bg-color: #c1e0e5;
+$card-1:#fbbaa6;
+$card-2:#fefefe;
+$card-3:#f3cd82;
+$text-field: #161b22;
+
+$set-transition: all 0.2s linear; 
+// projects #fbbaa6  #fefefe  #f3cd82
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.15;
+    text-size-adjust: 100%; 
+    color: $font-color;
+}
+p{
+    font-size: 16px;
+    line-height: 1.6em;
+}

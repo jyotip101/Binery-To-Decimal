@@ -1,0 +1,19 @@
+@import './config';  
+@import './home';
+@import './input';
+
+*{
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: $bg-color; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   

@@ -1,0 +1,24 @@
+.Home-contant{ 
+
+    & .home-display{
+        text-align: center;
+        margin:2rem 0;
+
+        & h1{
+            margin: 2rem;
+        }
+
+        & h2{
+            margin: 2rem 0;
+        }
+    }
+
+    & footer{
+        margin-top: 15vh;
+        text-align: center;
+
+        & a{ 
+            
+        }
+    }
+}
