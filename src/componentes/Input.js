@@ -1,20 +1,17 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
-const Input = (text, setText) =>{
+const Input = () =>{
 
     const [text, setText] = useState('')
     
-
     const BinToDec = () =>{
-        let bin = parseInt(text, 2)
-        const dec = bin 
+        let bin = parseInt(text, 2) 
+        setText(bin)
     } 
 
     const onSubmit = e =>{
         e.preventDefault()  
- 
-        setText('')    
     }
 
     Input.prototypes = {
@@ -22,7 +19,9 @@ const Input = (text, setText) =>{
     }
     return(
     <> 
-        
+        <h2 className="result">
+                    { text === 1 || text === 0 ? "binery" : 'not binary'} 
+                </h2>
         <form onSubmit={onSubmit}>
             <input 
                 className='input-field' 

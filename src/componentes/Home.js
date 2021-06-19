@@ -7,9 +7,7 @@ const Home = () =>{
         <div className="Home-contant">
             <div className="home-display">
                 <h1 className="header">Binary To Decimal</h1>
-                <h2 className="result">
-                    { !text? 'Decimal': BinToDec.dec }
-                </h2>
+                 
                 <Input />
                 
             </div>
